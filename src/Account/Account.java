@@ -54,8 +54,8 @@ public class Account {
                 Account Name: %s
                 Account Number: %s
                 Account Balance: %s
-                Account pin: %s
+                Account pin: Unavailable
                 ====================================
-                """,name, accountNumber, balance, pin);
+                """,name, accountNumber, balance);
     }
 }
