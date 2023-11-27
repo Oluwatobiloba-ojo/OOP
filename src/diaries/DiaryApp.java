@@ -127,7 +127,7 @@ public class DiaryApp {
 
     private static void setUpDiaryApp() {
         System.out.println("===============================");
-        System.out.println("|WELCOME TO PAST TENSE DIARY|");
+        System.out.println("WELCOME TO PAST TENSE DIARY");
         System.out.println("===============================");
         String name = input("Enter your user_name");
         String password = input("Enter your desire password for your diary");

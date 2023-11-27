@@ -2,6 +2,7 @@ import Account.exceptions.IncorrectPinExceptions;
 import diaries.Diary;
 import diaries.Entry;
 import diaries.exceptions.DiaryLockedExceptions;
+import diaries.exceptions.EntryHasNotBeenCreatedException;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -105,5 +106,15 @@ public class DiaryTest {
         assertEquals("""
         My name is amaka i go to school
         I saw a fine girl and fell down inside gutter""", entry.getBody());
+    }
+
+    @Test
+    public void testThatWhenWeWantToFindADiaryWithWrongUserIdThrowsException(){
+        Diary diary = new Diary("user_name", "user_password");
+        diary.unLock("user_password");
+        diary.createEntry("Amaka go to school", "My name is amaka i go to school");
+        assertThrows(EntryHasNotBeenCreatedException.class, ()->diary.findEntryById(2));
+        diary.lock();
+        assertTrue(diary.isLocked());
     }
 }

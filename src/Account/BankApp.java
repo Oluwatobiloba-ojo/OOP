@@ -99,7 +99,7 @@ public class BankApp {
         bankMain();
     }
 
-    private static String input(String main) {
+    public static String input(String main) {
         Scanner scanner = new Scanner(System.in);
         System.out.println(main);
         return scanner.nextLine();

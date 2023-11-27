@@ -5,22 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c81c8fe9-54bc-4fc3-96d2-433b61cef47d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Object.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Account/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Account/Bank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Account/BankApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Account/exceptions/IncorrectPinExceptions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Account/exceptions/InsufficientAmountException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Account/exceptions/InvalidAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Account/exceptions/InvalidAmountException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/AccountTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/BankTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Object.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Object.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Account/BankApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Account/BankApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/diaries/DiaryApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/diaries/DiaryApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/diaries/Entry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/diaries/Entry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/BankTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/BankTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/DiaryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/DiaryTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,39 +43,52 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "true",
-    "Repository.Attach.JavaDocs": "true",
-    "Repository.Attach.Sources": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "reference.settings.ide.settings.uml",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;true&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/User/IdeaProjects/Object&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.uml&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;PLAIN_TEXT&quot;
+    ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="diaries.exceptions" />
+      <recent name="diaries" />
       <recent name="Account" />
       <recent name="" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.BankApp">
-    <configuration name="BankApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Account.BankApp" />
+  <component name="RunManager" selected="JUnit.DiaryTest.testThatWhenWeWantToFindADiaryWithWrongUserIdThrowsException">
+    <configuration name="DiaryApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="diaries.DiaryApp" />
       <module name="Object" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Account.*" />
+          <option name="PATTERN" value="diaries.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,40 +96,40 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BankTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DiaryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Object" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BankTest" />
+      <option name="MAIN_CLASS_NAME" value="DiaryTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BankTest.testThatBankCanCreateOneAccountAndDeposit1kToAccountAndWithdraw5hWithIncorrectPinThrowsException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DiaryTest.testThatWhenTheDiaryIsDeletedAndWantToGetTheEntryInTheDiary" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Object" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BankTest" />
-      <option name="METHOD_NAME" value="testThatBankCanCreateOneAccountAndDeposit1kToAccountAndWithdraw5hWithIncorrectPinThrowsException" />
+      <option name="MAIN_CLASS_NAME" value="DiaryTest" />
+      <option name="METHOD_NAME" value="testThatWhenTheDiaryIsDeletedAndWantToGetTheEntryInTheDiary" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BankTest.testThatBankCanCreateTwoAccountAndDeposit1kToAccountOneAndTransfer500hToSecondAccount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DiaryTest.testThatWhenWeCreateAnEntryAndUpdateEntryTheEntryIsUpdated" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Object" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BankTest" />
-      <option name="METHOD_NAME" value="testThatBankCanCreateTwoAccountAndDeposit1kToAccountOneAndTransfer500hToSecondAccount" />
+      <option name="MAIN_CLASS_NAME" value="DiaryTest" />
+      <option name="METHOD_NAME" value="testThatWhenWeCreateAnEntryAndUpdateEntryTheEntryIsUpdated" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BankTest.testThatBankCanCreateTwoAccountAndDeposit2kToAccountOneAndTransfer2500hToSecondAccountToThrowInsufficient" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DiaryTest.testThatWhenWeWantToFindADiaryWithWrongUserIdThrowsException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Object" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BankTest" />
-      <option name="METHOD_NAME" value="testThatBankCanCreateTwoAccountAndDeposit2kToAccountOneAndTransfer2500hToSecondAccountToThrowInsufficient" />
+      <option name="MAIN_CLASS_NAME" value="DiaryTest" />
+      <option name="METHOD_NAME" value="testThatWhenWeWantToFindADiaryWithWrongUserIdThrowsException" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -132,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BankApp" />
-        <item itemvalue="JUnit.BankTest" />
-        <item itemvalue="JUnit.BankTest.testThatBankCanCreateTwoAccountAndDeposit2kToAccountOneAndTransfer2500hToSecondAccountToThrowInsufficient" />
-        <item itemvalue="JUnit.BankTest.testThatBankCanCreateTwoAccountAndDeposit1kToAccountOneAndTransfer500hToSecondAccount" />
-        <item itemvalue="JUnit.BankTest.testThatBankCanCreateOneAccountAndDeposit1kToAccountAndWithdraw5hWithIncorrectPinThrowsException" />
+        <item itemvalue="JUnit.DiaryTest.testThatWhenWeWantToFindADiaryWithWrongUserIdThrowsException" />
+        <item itemvalue="Application.DiaryApp" />
+        <item itemvalue="JUnit.DiaryTest" />
+        <item itemvalue="JUnit.DiaryTest.testThatWhenWeCreateAnEntryAndUpdateEntryTheEntryIsUpdated" />
+        <item itemvalue="JUnit.DiaryTest.testThatWhenTheDiaryIsDeletedAndWantToGetTheEntryInTheDiary" />
       </list>
     </recent_temporary>
   </component>
@@ -149,7 +154,11 @@
       <option name="presentableId" value="Default" />
       <updated>1700673491523</updated>
       <workItem from="1700673492823" duration="472000" />
-      <workItem from="1700712311932" duration="11739000" />
+      <workItem from="1700712311932" duration="17536000" />
+      <workItem from="1700926424919" duration="6110000" />
+      <workItem from="1700973944511" duration="587000" />
+      <workItem from="1700975260810" duration="77000" />
+      <workItem from="1701001743132" duration="15246000" />
     </task>
     <servers />
   </component>

@@ -49,7 +49,7 @@ public class BankTest {
         bank.deposit(1000, "1045671");
         assertEquals(1000, account1.checkBalanceWith("correctPin"));
     }@Test
-    public void testThatBankCanCreateTwoAccountAndFindCustomerOneAccountCanDeposit1kIntoItCustomerAccountAndBalanceIs1kWithWrongPin() {
+    public void testThatBankCanCreateTwoAccountAndFindCustomerOneAccountCanDeposit1kIntoItCustomerAccountAndBalanceIs1kWithWrongNumber() {
     Bank bank = new Bank();
     Account account1 = bank.createAccountFor("FirstName", "LastName", "correctPin");
     Account account2 = bank.createAccountFor("FirstName", "LastName", "correctPin");
